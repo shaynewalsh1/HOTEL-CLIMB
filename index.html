@@ -1,0 +1,235 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Climb</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Cute+Font|Lato:300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1db29f99d7.js" crossorigin="anonymous"></script>
+  </head>
+
+	<body>
+
+	    <header>
+	      	<div class="grid-x">
+	        	<div class="cell text-center">
+	        		<a href="index.html" class="logo">
+	            		<img src="img/climb1.svg" alt="logo">
+	          		</a>
+	        	</div>
+	    	</div>
+
+	    	<div class="grid-x">
+	        	<div class="cell show-for-medium">
+	          		<ul class="menu align-center">
+	            		<li><a href="#">Rooms</a></li>
+	            		<li><a href="#">Services</a></li>
+	            		<li><a href="#">Reviews</a></li>
+	            		<li><a href="#">About</a></li>
+	          		</ul>
+	        	</div>
+	        	<div class="cell text-center show-for-small-only">
+	          		<button class="button" data-open="menu-list" id="dpd3">MENU</button>
+	        	</div>
+	      	</div>
+
+	    	<div class="reveal1" id="menu-list" data-reveal>
+	      		<ul class="menu align-center">
+	            	<li><a href="#">Rooms</a></li>
+	            	<li><a href="#">Services</a></li>
+	            	<li><a href="#">Reviews</a></li>
+	            	<li><a href="#">About</a></li>
+	          	</ul>
+	      		<button class="close-button" data-close aria-label="Close modal" type="button">
+	        		<span aria-hidden="true">&times;</span>
+	      		</button>
+	    	</div>
+	    </header>
+
+	    <div class="grid-x">
+	      <div class="cell text-center">
+	        <section class="hero">
+	          <img data-interchange="[img/hero1crop3.png, small], [img/hero1.png, medium]">
+	        </section>
+	      </div>
+	    </div>
+
+    	<section class="services">
+    		<h1>SERVICES</h1>
+	        <div class="grid-container">
+	        
+	            <div class="grid-x align-middle">
+
+	                <div class="cell medium-7">
+	                    <img src="img/market cafe trail mix.jpg" alt="market cafe trail mix">
+	                </div>
+
+	                <div class="cell medium-5 content">
+	                    <h1>Something To Snack On</h1>
+	                    <p>Visit our market and cafe where you can grab some snacks for your hike, reduce your hunger, and increase your energy. Be sure to also check out our trail mix bar, where you can get your own personalized mix.</p>
+	                    <a href="#" class="button">LEARN MORE</a>
+	                </div>
+
+	            </div>
+
+
+	            <div class="grid-x align-middle">
+	          
+	                <div class="cell medium-5 content small-order-2 medium-order-1">
+	                    <h1>Relaxation</h1>
+	                    <p>After a long day, a trip to our spa will replenish your body and prepare you for the next adventure.</p>
+	                    <a href="#" class="button">LEARN MORE</a>
+	                </div>
+
+	                <div class="cell medium-7 small-order-1 medium-order-2">
+	                    <img src="img/spa.jpg" alt="spa">
+	                </div>
+
+	            </div>
+
+
+	            <div class="grid-x align-middle">
+
+	                <div class="cell medium-7">
+	                    <img src="img/lockers.jpg" alt="lockers">
+	                </div>
+
+	                <div class="cell medium-5 content">
+	                    <h1>Lock Up Your Gear</h1>
+	                    <p>Don't want to clutter your room with all your gear and equiptment? Feel free to take advantage of our complimentary equiptment lockers.</p>
+	                    <a href="#" class="button">LEARN MORE</a>
+	                </div>
+
+	            </div>
+
+	        </div>
+	    </section>
+
+
+		<section class="booking">
+			<h1>RESERVE A ROOM</h1>
+		    <table class="table">
+		      <thead>
+		        <tr>
+		          <th>ENTER ROOM<input type="text" class="span2" value="" id="dpd1">
+		          </th>
+		          <th>EXIT ROOM
+		            <input type="text" class="span2" value="" id="dpd2">
+		          </th>
+		        </tr>
+		      </thead>
+		      <tbody>
+		        <tr colspan="2">
+		          <td>
+		            <button class="button" data-open="confirm-booking" id="dpd3">RESERVE</button>
+		          </td>
+		        </tr>
+		      </tbody>
+		    </table>
+		</section>
+
+	    <div class="reveal" id="confirm-booking" data-reveal>
+	      <h1>Your Adventure Is Ready</h1>
+	      <p>Entering room on <span class="date1"></span> and exiting room on <span class="date2"></span></p>
+	      <button class="close-button" data-close aria-label="Close modal" type="button">
+	        <span aria-hidden="true">&times;</span>
+	      </button>
+	    </div>
+
+	    <section class="reviews">
+	    	<h1>REVIEWS</h1>
+	    	    <div class="grid-container">
+	    	    
+	    	        <div class="grid-x align-center">
+
+	    	            <div class="cell medium-9">
+				    	    <div class="orbit" role="region" aria-label="images" data-orbit>
+				    	      	<div class="orbit-wrapper">
+						    	    <div class="orbit-controls">
+						    	        <button class="orbit-previous"><span class="show-for-sr">Previous</span>&#9664;&#xFE0E;</button>
+						    	        <button class="orbit-next"><span class="show-for-sr">Next</span>&#9654;&#xFE0E;</button>
+						    		</div>
+						    	    
+						    	    <ul class="orbit-container">
+						    	        <li class="is-active orbit-slide">
+						    	            <figure class="orbit-figure">
+						    	            	<h3>Julia R.</h3>
+						    	            	<p>"We had a mini family reunion here last week and it was perfect. Plenty to do for the kids and a relaxed, sophisticated atmosphere for the grown ups. The food is lovely, the accommodations are first rate and the surrounding area of the Catskills Mountain region is beautiful, with lots to do. The spa is sublime! It would be a great couples or girls trip destination too, just for the spa alone."</p>
+						    	            	<div class="ratings">
+							    	            	<i class="fas fa-splotch"></i>
+							    	            	<i class="fas fa-splotch"></i>
+							    	            	<i class="fas fa-splotch"></i>
+							    	        		<i class="fas fa-splotch"></i>
+							    	        		<i class="fas fa-splotch"></i>
+							    	        	</div>
+						    	            </figure>
+						    	        </li>
+						    	        
+						    	        <li class="orbit-slide">
+						    	            <figure class="orbit-figure">
+						    	            	<h3>Stephen M.</h3>
+						    	            	<p>"Great place. Stayed there last fall during a trip with my wife and we both loved it. The lockers were super helpful for us and my wife loved the spa. This was our first time at the hotel and we will definitely be coming back soon."</p>
+						    	            	<div class="ratings">
+							    	            	<i class="fas fa-splotch"></i>
+							    	            	<i class="fas fa-splotch"></i>
+							    	            	<i class="fas fa-splotch"></i>
+							    	        		<i class="fas fa-splotch"></i>
+							    	        	</div>
+						    	            </figure>
+						    	        </li>
+						    	        
+						    	        <li class="orbit-slide">
+						    	            <figure class="orbit-figure">
+							    	            <h3>Christian T.</h3>
+							    	            <p>"My only issue is the price. Given the other options for hotels in the Catskills, this definitely stands out above the rest, but for the money I expected more. The trail mix bar was just a cheap gimmick, they didn't even have any yogurt covered raisins. Nonetheless, I had a good time with my friend Mason."</p>
+							    	            <div class="ratings">
+							    	              	<i class="fas fa-splotch"></i>
+							    	             	<i class="fas fa-splotch"></i>
+							    	             	<i class="fas fa-splotch"></i>
+							    	            </div>
+						    	            </figure>
+						    	        </li>
+						    	        
+						    	        <li class="orbit-slide">
+						    	            <figure class="orbit-figure">
+						    	            	<h3>Naomi G.</h3>
+						    	            	<p>"We had a mini family reunion here last week and it was perfect. Plenty to do for the kids and a relaxed, sophisticated atmosphere for the grown ups. The food is lovely, the accommodations are first rate and the surrounding area of the Catskills Mountain region is beautiful, with lots to do. The spa is sublime! It would be a great couples or girls trip destination too, just for the spa alone."</p>
+						    	            	<div class="ratings">
+							    	            	<i class="fas fa-splotch"></i>
+							    	            	<i class="fas fa-splotch"></i>
+							    	            	<i class="fas fa-splotch"></i>
+							    	        		<i class="fas fa-splotch"></i>
+							    	        		<i class="fas fa-splotch"></i>
+							    	        	</div>
+						    	            </figure>
+						    	        </li>
+						    	    </ul>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+
+	    <footer>
+	    	<h2>© HOTEL CLIMB</h2>
+	    	<div class="social-media">
+	    		<i class="fab fa-facebook-square"></i>
+	    		<i class="fab fa-instagram"></i>
+	    		<i class="fab fa-twitter-square"></i>
+	    		<i class="fab fa-tumblr-square"></i>
+	    	</div>
+	    </footer>
+
+	    <script src="js/vendor/jquery.js"></script>
+	    <script src="js/vendor/what-input.js"></script>
+	    <script src="js/vendor/foundation.js"></script>
+	    <script src="js/app.js"></script>
+	    <script src="js/vendor/foundation-datepicker.min.js"></script>
+	    <script src="js/main.js"></script>
+	</body>
+</html>

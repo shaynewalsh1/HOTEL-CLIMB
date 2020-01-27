@@ -1,0 +1,236 @@
+body {
+	background-color: #fff;
+}
+
+body p {
+	font-family: 'Lato', sans-serif;
+}
+
+.booking {
+	background-color: #7e767c;
+	padding-left: 7rem;
+	padding-right: 7rem;
+	padding-bottom: 3rem;
+	border-bottom: 5px solid #000;
+}
+
+.booking tr {
+	background-color: #7e767c;
+}
+
+.services h1 {
+	font-family: 'Cute Font', sans-serif;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 3rem;
+	line-height: 2rem;
+	padding-bottom: 2rem;
+}
+
+.booking h1 {
+	font-family: 'Cute Font', sans-serif;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 3rem;
+	line-height: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.reviews h1 {
+	font-family: 'Cute Font', sans-serif;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 3rem;
+	line-height: 2rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.reviews h3 {
+	font-family: 'Cute Font', sans-serif;
+	text-align: left;
+	color: #4f4138;
+	font-size: 3rem;
+	line-height: 2rem;
+}
+
+.reviews h4 {
+	font-family: 'Cute Font', sans-serif;
+	color: #7e767c;
+	font-size: 3rem;
+}
+
+.fa-splotch {
+	color: #bbb4b9;
+	font-size: 2rem;
+	letter-spacing: 1rem;
+	padding: 1rem 0 1rem 0;
+}
+
+.orbit-figure {
+	padding: 5rem;
+}
+
+.ratings {
+	background-color: #7e767c;
+	border-radius: 25px;
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.reviews p {
+	color: #837166;
+	text-indent: 2rem;
+}
+
+.reviews {
+	background-color: #a2b8a7;
+	padding-bottom: 3rem;
+	border-bottom: 5px solid #000;
+}
+
+.reviews ul {
+	background-color: #fff;
+	border-radius: 100px;
+}
+
+footer {
+	background-color: #4f4138;
+	padding-top: 3rem;
+	padding-left: 7rem;
+	padding-right: 7rem;
+}
+
+.social-media {
+	color: #fff;
+	font-size: 3rem;
+}
+
+.logo img {
+	width: auto;
+	height: 100px;
+	margin-bottom: 2rem;
+}
+
+header {
+	background-color: #637a69;
+	padding: 2rem;
+	border-bottom: 5px solid #000;
+}
+
+.menu li {
+	margin: 0 1rem;
+	font-family: 'Cute Font', sans-serif;
+}
+
+.menu a ,.menu-link {
+	color: #000;
+	border-radius: 25px;
+	font-size: 2rem;
+	background-color: #a2b8a7;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Cute Font', sans-serif;
+}
+
+header .button {
+	color: #000;
+	border-radius: 50px;
+	font-size: 2rem;
+	background-color: #a2b8a7;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Cute Font', sans-serif;
+	margin-left: 0;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.reveal1 {
+	background-color: #637a69;
+	margin-top: 10rem;
+}
+
+.reveal1 li {
+	margin-left: 5rem;
+	margin-right: 5rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+.hero {
+	padding-bottom: 3rem;
+	margin-bottom: 3rem;
+	border-bottom: 5px solid #000;
+	background-color: #d8c0b1;
+}
+
+.hero img {
+	width: 70%;
+	height: auto;
+	margin-top: 3rem;
+	border-radius: 100px;
+}
+
+.menu-link {
+	line-height: 1;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.7rem 1rem;
+}
+
+.services .grid-x {
+	background-color: #d8c0b1;
+	border-radius: 100px;
+	margin-bottom: 3rem;
+}
+
+.services img {
+	border-radius: 100px;
+}
+
+.services {
+	border-bottom: 5px solid #000;
+}
+
+.content {
+	padding: 3rem 3rem 3rem 3rem;
+}
+
+.content h1 {
+	font-family: 'Cute Font', sans-serif;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+	color: #4f4138;
+	font-size: 3rem;
+	line-height: 2rem;
+}
+
+.button {
+	background-color: #334c39;
+	border-radius: 25px;
+	font-family: 'Cute Font', sans-serif;
+	font-size: 1.25rem;
+	margin-top: 1rem;
+	margin-left: 2rem;
+}
+
+.content p {
+	color: #4f4138;
+}
+
+footer h2 {
+	color: #fff;
+	font-family: 'Cute Font', sans-serif;
+	letter-spacing: 2px;
+}
